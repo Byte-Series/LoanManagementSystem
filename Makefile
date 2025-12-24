@@ -12,9 +12,6 @@ TARGET = loan_management
 # Source files
 SOURCES = loan_management.cpp
 
-# Object files
-OBJECTS = $(SOURCES:.cpp=.o)
-
 # Default target
 all: $(TARGET)
 
@@ -24,7 +21,7 @@ $(TARGET): $(SOURCES)
 
 # Clean build artifacts
 clean:
-	rm -f $(TARGET) $(OBJECTS)
+	rm -f $(TARGET)
 
 # Run the program
 run: $(TARGET)

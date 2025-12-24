@@ -140,8 +140,8 @@ Total Amount Payable after 24 months: 55500
 ```
 LoanManagementSystem/
 ├── loan_management.cpp    # Main source code
-├── loan_management.txt    # Additional notes/documentation
-├── README.md              # This file
+├── README.md              # Project documentation
+├── Makefile              # Build automation
 └── .gitignore            # Git ignore rules
 ```
 
