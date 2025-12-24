@@ -1,0 +1,24 @@
+# Compiled binaries
+loan_management
+*.exe
+*.out
+*.o
+
+# Build directories
+build/
+bin/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
